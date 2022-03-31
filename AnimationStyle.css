@@ -1,0 +1,24 @@
+div{
+    width: 200px;
+    height: 150px;
+    background-color: steelblue;
+    border: 4px solid black;
+    border-radius: 15px;
+    float: left;
+    transition: 1s;
+}
+
+div:hover{
+    cursor: pointer;
+    background-color: yellow;
+    transform: rotate(360deg);
+}
+
+#animasyon{
+    position:absolute;
+}
+
+#sabit{
+    position: fixed;
+    margin-top: 300px;
+}
